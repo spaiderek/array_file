@@ -1,6 +1,5 @@
 #include <iostream>
 #include "file.h"
-#include <stdlib.h>
 FILE * fptr;
 
 void  enterValue(){

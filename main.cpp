@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
 #include "file.h"
 
 void menu(void){
@@ -38,10 +37,6 @@ int main() {
             case 3:
                 printf("3. Add new values into end of the file\n");
                 addValueEnd();
-                break;
-            case 4:
-                printf("4. Add new values into file\n");
-                addValueFile();
                 break;
             default:
                 printf("choose the right option");
